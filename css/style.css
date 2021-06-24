@@ -30,7 +30,7 @@ table {
   border-spacing: 0;
 }
 
-/* particleground demo */
+/* particleground demo #CDB3D5 */
 
 * {
   -webkit-box-sizing: border-box;
@@ -70,20 +70,28 @@ body {
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
 }
+.img {
+
+
+  fill: rgb(194, 194, 194);
+  filter: blur(50%);
+  height: 500px;
+
+}
 #bg {
   position: fixed;
   top: -50%;
   left: -50%;
   right: -50%;
   bottom: -50%;
-  width: 500%;
-  height: 500vh;
+  width: 200%;
+  height: 200vh;
   background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
-  filter: invert(100%);
   background-repeat: repeat;
   animation: bg-animation .2s infinite;
-  opacity: 1;
+  opacity: .9;
   visibility: visible;
+  filter: invert(100%);
 }
 
 #particles {
@@ -119,6 +127,7 @@ h1::after {
   justify-content: center;
   text-align: center;
   line-height: 1.1;
+  
 }
 p {
   margin: 0 0 30px 0;
@@ -127,6 +136,7 @@ p {
   justify-content: center;
   text-align: center;
 }
+
 
 @media only screen and (max-width: 1000px) {
   h1 {
