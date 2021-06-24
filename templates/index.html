@@ -14,10 +14,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <link rel="shortcut icon" type="image/png" href="assets/favicon.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="ya-title=#CDB3D5,ya-dock=fade" >
+  <meta name="theme-color" content="#CDB3D5" >
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="style.css" />
-  
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="../../style.css" />
+  <link rel="stylesheet" href="../../templates/static/style.css" />
   <link rel="stylesheet" type="text/css" href="static/css/main.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" type="text/css">
 </head>
@@ -26,7 +29,7 @@
 
 <div id="bg"></div>
   <div id="intro">
-     <img src="assets/picture.svg" alt="Ля какая штучка" align="center" style="color: #000; width: 50%; height: 60%; fill: #000;">
+     <img src="assets/picture.svg" alt="Ля какая штучка" align="center" style="color: #000; width: 56%; height: 66%; fill: #000; padding-right: 2%;">
 
      <!--  <h2 style="font-family: 'Syncopate', sans-serif; font-weight: 10; color: black;">&nbsp<a href="deedy.pdf" style="color: black;"><img src="https://png.icons8.com/office/40/000000/open-resume.png" height="35" width="35"></a></h2> -->
       <p style="font-family: 'segoe ui', helvetica; font-weight: 12; font-size:32px; align="center" color: black; ">peace_akame  <img src="assets/verif.png" height="15" width="15"></p>
@@ -42,11 +45,47 @@
     <a href="https://vk.com/badmodest" style="color: #000;"><i class="fab fa-vk" style="font-size: 2em;"></i></a>
     &nbsp
     <a href="https://w7.pngwing.com/pngs/456/187/png-transparent-poop-emoticon-pile-of-poo-emoji-sticker-feces-emoticon-poop-brown-food-face.png" style="color: #000;"><i class="fab fa-apple" style="font-size: 2em;"></i></a>
-    
+    &nbsp
+    &nbsp
+    &nbsp
+    &nbsp
+    &nbsp
+    <p style="font-family: 'segoe ui', helvetica; font-weight: 12; font-size:32px; padding-top: 30%; align="center" color: black; ">Тёма что ты сделал?</p>
   </div>
 </div>
 
 </body>
+<nav role="navigation">
+  <div id="menuToggle">
+    <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+    <input type="checkbox" />
+    
+    <!--
+    Some spans to act as a hamburger.
+    
+    They are acting like a real hamburger,
+    not that McDonalds stuff.
+    -->
+    <span></span>
+    <span></span>
+    <span></span>
+    
+    <!--
+    Too bad the menu has to be inside of the button
+    but hey, it's pure CSS magic.
+    -->
+    <ul id="menu">
+      <a href="#"><li>Home</li></a>
+      <a href="#"><li>About</li></a>
+      <a href="#"><li>Info</li></a>
+      <a href="#"><li>Contact</li></a>
+      <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+    </ul>
+  </div>
+</nav>
 <audio autoplay id="myaudio" src="a047e4121758725520431275a.wav" type="audio/waw" autoplay loop/>
 <script>
  var audio = document.getElementById("myaudio");
